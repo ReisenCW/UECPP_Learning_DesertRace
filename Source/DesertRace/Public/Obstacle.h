@@ -7,6 +7,7 @@
 #include "PaperSpriteComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "MyGameMode.h"
+#include "Sound/SoundBase.h"
 
 
 #include "Obstacle.generated.h"
@@ -26,6 +27,12 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	UPaperSpriteComponent* ObstacleSprite;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	USoundBase* HitSound;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool IsFinishLine = false;
 
 	virtual void BeginPlay() override;
 

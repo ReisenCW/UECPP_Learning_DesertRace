@@ -32,7 +32,10 @@ void AObstacle::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* Othe
 	if (Player) {
 		if (Player->CanMove) {
 			Player->CanMove = false;
-			MyGameMode->ResetLevel(false);
+
+			UGameplayStatics::PlaySound2D(GetWorld(), HitSound);
+
+			MyGameMode->ResetLevel(IsFinishLine);
 		}
 	}
 }
