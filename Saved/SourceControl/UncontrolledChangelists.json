@@ -1,0 +1,33 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Unreal Projects/learning/DesertRace/Content/Map/Desert_Level.umap",
+				"D:/Unreal Projects/learning/DesertRace/Content/Assets/Sound/bg_music.uasset",
+				"D:/Unreal Projects/learning/DesertRace/Content/Assets/Texture/car.uasset",
+				"D:/Unreal Projects/learning/DesertRace/Content/Assets/Texture/desert_background.uasset",
+				"D:/Unreal Projects/learning/DesertRace/Content/Assets/Texture/fence.uasset",
+				"D:/Unreal Projects/learning/DesertRace/Content/Assets/Texture/finish_line.uasset",
+				"D:/Unreal Projects/learning/DesertRace/Content/Assets/Sound/hit.uasset",
+				"D:/Unreal Projects/learning/DesertRace/Content/Assets/Texture/race_track.uasset",
+				"D:/Unreal Projects/learning/DesertRace/Content/Assets/Texture/start_line.uasset",
+				"D:/Unreal Projects/learning/DesertRace/Content/Assets/Texture/tire.uasset",
+				"D:/Unreal Projects/learning/DesertRace/Content/Assets/Sound/win.uasset",
+				"D:/Unreal Projects/learning/DesertRace/Content/Assets/Sprite/car_Sprite.uasset",
+				"D:/Unreal Projects/learning/DesertRace/Content/Assets/Sprite/desert_background_Sprite.uasset",
+				"D:/Unreal Projects/learning/DesertRace/Content/Assets/Sprite/fence_Sprite.uasset",
+				"D:/Unreal Projects/learning/DesertRace/Content/Assets/Sprite/finish_line_Sprite.uasset",
+				"D:/Unreal Projects/learning/DesertRace/Content/Assets/Sprite/race_track_Sprite.uasset",
+				"D:/Unreal Projects/learning/DesertRace/Content/Assets/Sprite/start_line_Sprite.uasset",
+				"D:/Unreal Projects/learning/DesertRace/Content/Assets/Sprite/tire_Sprite.uasset",
+				"D:/Unreal Projects/learning/DesertRace/Content/BluePrints/BP_Car.uasset",
+				"D:/Unreal Projects/learning/DesertRace/Content/Input/InputAction_Move.uasset",
+				"D:/Unreal Projects/learning/DesertRace/Content/Input/InputMappingContext_Move.uasset",
+				"D:/Unreal Projects/learning/DesertRace/Content/BluePrints/BP_MyGameMode.uasset"
+			]
+		}
+	]
+}
