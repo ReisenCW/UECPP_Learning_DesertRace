@@ -12,7 +12,10 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.editorconfig" />
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <None Include="..\..\.vsconfig" />
+    <None Include="..\..\README.md" />
     <None Include="..\..\shadertoolsconfig.json" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
@@ -47,6 +50,9 @@
     <ClCompile Include="..\..\Source\DesertRace\Private\MyGameMode.cpp">
       <Filter>Source\DesertRace\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\DesertRace\Private\Obstacle.cpp">
+      <Filter>Source\DesertRace\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\DesertRace\Private\Player_Car.cpp">
       <Filter>Source\DesertRace\Private</Filter>
     </ClCompile>
@@ -54,6 +60,9 @@
       <UniqueIdentifier>{0CC66B45-642C-3CD0-92FB-65305C698F20}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\DesertRace\Public\MyGameMode.h">
+      <Filter>Source\DesertRace\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DesertRace\Public\Obstacle.h">
       <Filter>Source\DesertRace\Public</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\DesertRace\Public\Player_Car.h">
