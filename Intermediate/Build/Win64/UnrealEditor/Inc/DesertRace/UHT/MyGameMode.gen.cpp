@@ -30,7 +30,7 @@ struct Z_Construct_UClass_AMyGameMode_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 #if !UE_BUILD_SHIPPING
-		{ "Comment", "/**\n * \n */" },
+		{ "Comment", "/** \n * \n */" },
 #endif
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering HLOD WorldPartition DataLayers Transformation" },
 		{ "IncludePath", "MyGameMode.h" },
@@ -85,10 +85,10 @@ AMyGameMode::~AMyGameMode() {}
 struct Z_CompiledInDeferFile_FID_Unreal_Projects_learning_DesertRace_Source_DesertRace_Public_MyGameMode_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMyGameMode, AMyGameMode::StaticClass, TEXT("AMyGameMode"), &Z_Registration_Info_UClass_AMyGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyGameMode), 1820211716U) },
+		{ Z_Construct_UClass_AMyGameMode, AMyGameMode::StaticClass, TEXT("AMyGameMode"), &Z_Registration_Info_UClass_AMyGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyGameMode), 2505242445U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_learning_DesertRace_Source_DesertRace_Public_MyGameMode_h_1523167324(TEXT("/Script/DesertRace"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_learning_DesertRace_Source_DesertRace_Public_MyGameMode_h_1217127171(TEXT("/Script/DesertRace"),
 	Z_CompiledInDeferFile_FID_Unreal_Projects_learning_DesertRace_Source_DesertRace_Public_MyGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Projects_learning_DesertRace_Source_DesertRace_Public_MyGameMode_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

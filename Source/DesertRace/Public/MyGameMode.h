@@ -4,7 +4,7 @@
 #include "GameFramework/GameModeBase.h"
 #include "MyGameMode.generated.h"
 
-/**
+/** 
  * 
  */
 UCLASS()
